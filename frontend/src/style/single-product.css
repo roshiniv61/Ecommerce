@@ -1,0 +1,21 @@
+.single-product .price{
+    color: var(--primary-color)
+}
+
+.single-product .accordion-4 .green-border-button{
+    width:auto !important;
+    padding: 20px 30px
+}
+
+
+.single-product  .active-button {
+    background-color:var(--primary-color);
+    color: var(--secondary-color); /* optional, for better contrast */
+  }
+
+  .single-product .slick-track{
+    width:990px !important;
+  }
+  
+
+  

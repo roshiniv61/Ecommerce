@@ -1,0 +1,220 @@
+@import './style/header.css';
+@import './style/banner.css';
+@import './style/collectionpage-cards.css';
+@import './style/TwoColSection.css';
+@import './style/titlecomponent.css';
+@import './style/emailsubscribe.css';
+@import './style/footer.css';
+@import './style/single-product.css';
+@import './style/cart.css';
+@import './style/checkout.css';
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --primary-color: #62B22E;
+    --secondary-color: #fff;
+    --Secondary-Light-Grey: #F5F5F5;
+    --Color-Neutral-black: #000000;
+    --background: #62B22E33;
+    --Secondary-Blue: #0C89B8;
+    --background-grey: #F5F5F5;
+    --text-grey: #777676;
+    --border-grey: #D1D1D1;
+
+
+
+}
+
+a.active hr {
+    display: block;
+}
+
+
+
+
+
+.Desktop-H2,
+h2 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+}
+
+.Desktop-H3,
+h3 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.Desktop-H5,
+h5 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+}
+
+.Desktop-H6,
+h6 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+
+
+.text-regular-bold {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.text-regular-normal {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.text-large-bold {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.text-medium-bold {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.text-medium-bold {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.text-medium-normal {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.text-small-bold {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.text-small-normal {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+
+/* white button */
+.white-button {
+    background: var(--secondary-color);
+    color: #000;
+    padding: 12px 28px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.green-button {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 12px 28px;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid var(--primary-color);
+}
+
+.green-button:hover {
+    background-color: #fff;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.blue-button {
+    background: var(--Secondary-Blue);
+    color: var(--secondary-color);
+    padding: 12px 28px;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid var(--Secondary-Blue);
+}
+
+
+.green-border-button {
+    border: 1px solid var(--primary-color);
+    padding: 8px 20px;
+    color: var(--primary-color);
+    border-radius: 8px;
+    width: 100%
+}
+
+.green-rounded-button {
+    padding: 10px 24px;
+    border-radius: 100px;
+    background-color: var(--background);
+}
+
+
+
+
+
+/* slider */
+.slick-slider.slick-initialized {
+    /* display:flex; */
+    flex-direction: row;
+    gap: 10px;
+    overflow: hidden !important;
+}
+
+.slick-list .slick-track {
+    display: flex;
+    overflow-y: hidden !important;
+}
+
+.slick-arrow.slick-prev{
+    position:absolute;
+    left:-34px;
+    top:50%;
+}
+
+.slick-arrow.slick-next{
+    position:absolute;
+    right:-34px;
+    top:50%;
+}
+
+/* .selected {
+    border: 1px solid var(--primary-color);
+} */

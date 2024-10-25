@@ -1,0 +1,30 @@
+.two-col-section .content-wrapper{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding:40px 100px;
+    text-align: right;
+}
+
+.two-col-section .content-wrapper .title{
+    margin-bottom: 13px;
+    width: 480px;
+}
+
+.two-col-section .content-wrapper .description{
+    margin-bottom: 26px;
+    width: 456px;
+    
+}
+
+@media only screen and (max-width:768px){
+    .two-col-section .content-wrapper{       
+        padding:40px 20px;
+    }
+    .two-col-section .content-wrapper .title{
+        width: auto;
+    }
+    
+    .two-col-section .content-wrapper .description{
+        width: auto;
+    } 
+}

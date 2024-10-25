@@ -1,0 +1,23 @@
+
+  
+.cart-items  .green-button {
+    width:100%;
+    text-align: center;
+  }
+
+.logo-success-wrapper{
+  background-color: #62B22E1A;
+  padding:20px 36px;
+  border-radius: 8px;
+
+}
+
+  .cart-sidebar {
+    padding:48px 40px;
+    border-radius: 8px;
+    background:var(--Secondary-Light-Grey)
+  }
+  
+  .logo-success-wrapper .green-button{
+  width:auto;
+}

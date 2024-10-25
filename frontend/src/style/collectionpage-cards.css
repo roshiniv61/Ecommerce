@@ -1,0 +1,14 @@
+/* .products-cards .products-card .green-border-button{
+    border:1px solid var(--primary-color);
+    padding:8px 20px;
+    color: var(--primary-color);
+    border-radius: 8px;
+    width:100%
+} */
+
+.products-cards .products-card h2{
+    margin-bottom:10px;
+}
+.products-cards .products-card p{
+    margin-bottom:10px;
+}

@@ -1,0 +1,39 @@
+
+.email-subscribe .wrapper {
+    background-color: var(--primary-color);
+}
+
+.email-subscribe  h1 {
+    color: var(--secondary-color);
+    width: 80%;
+    margin-bottom: 13px;
+}
+
+.email-subscribe  p {
+    color: var(--secondary-color);
+    margin-bottom: 23px;
+}
+
+.email-subscribe  .content-wrapper {
+    padding: 102px 20px;
+}
+
+.email-subscribe .form-control {
+    width:40%;
+
+}
+.email-subscribe .form-control input{
+    width:100%;
+    padding:12px 24px;
+    border-radius: 2px;
+}
+
+.email-subscribe img{
+    height:105%;
+    object-fit: cover;
+}
+@media only screen and (max-width:768px) {
+    .email-subscribe h1 {
+        width: 100%;
+    }
+}

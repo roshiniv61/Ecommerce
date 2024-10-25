@@ -1,0 +1,45 @@
+.checkout-page .page-title{
+    padding:24px 36px;
+    background-color: var(--primary-color);
+    border-radius: 8px;  
+    margin-bottom: 48px;
+}
+
+.checkout-page .page-title h3{
+    color:var(--secondary-color)
+}
+.checkout-page .tab-title-wrapper{
+    background-color: var(--background-grey);
+    padding:8px 24px;
+    margin-bottom: 10px;    border-radius: 8px;  
+
+}
+.checkout-page .tab-title-wrapper p{
+    color: var(--text-grey);
+}
+
+
+.checkout-page .tab-title-wrapper.active{
+    background-color: var(--primary-color);
+    border-radius: 8px;  
+}
+.checkout-page .tab-title-wrapper.active p{
+    color:var(--secondary-color);
+
+}
+
+.checkout-page  .form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 22px;
+}
+.checkout-page  .form-control label{
+    margin-bottom: 8px;
+}
+.checkout-page input{
+    border:1px solid var(--border-grey);
+    /* width: 100%; */
+    padding:10px;
+    border-radius: 8px; 
+}
+

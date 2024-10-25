@@ -1,0 +1,42 @@
+.hero-banner {
+    background-color: var(--primary-color);
+}
+
+.hero-banner h1 {
+    color: var(--secondary-color);
+    width: 80%;
+    margin-bottom: 13px;
+}
+
+.hero-banner p {
+    color: var(--secondary-color);
+    width: 61%;
+    margin-bottom: 23px;
+}
+
+.hero-banner .content-wrapper {
+    padding: 102px 20px;
+}
+
+.hero-banner .image-wrapper img {
+    height: 100%
+}
+
+.hero-banner .image-wrapper {
+    width: 100%
+}
+
+
+@media only screen and (max-width:768px) {
+    .hero-banner h1 {
+        width: 100%;
+    }
+
+    .hero-banner .content-wrapper {
+        padding: 102px 20px;
+    }
+
+    .hero-banner p {
+        width: 100%;
+    }
+}
